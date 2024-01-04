@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    padding: 30px;
+    background-color: rgb(225, 64, 190);
+    text-align: center;
+    width: 100%;
+}
+.nav ul a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 35px;
+    transition: 0.2s;
+}
+.nav ul a:hover{
+    color: black;
+    background-color: rgb(54, 188, 221);
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+.table{
+    box-sizing: border-box;
+    width: 100vw;
+}
+td{
+    padding: 80px 150px;
+}
+.slider{
+    display: flex;
+    width: 450vw;
+    transition: 1s;
+}
+.buy{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.container{
+    overflow: hidden;
+    width: 100vw;
+}
+.p{
+    font-size: larger;
+}

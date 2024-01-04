@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login_menna.css">
+</head>
+<body>
+    <div class="container">
+        <div class="SignUp" id="SignUp">
+
+            <div class="signlale">
+                <label for="SignUp">Sign Up</label>
+            </div>
+            <div class="inpuuts">
+                 <label for="usernsme">User Name</label><br>
+                 <input type="text" id="username" name="usernsme" placeholder="Enter your Name "><br><br>
+
+                 <label for="Password">Password</label><br>
+                 <input type="Password" id="Password" name="Password" placeholder="Enter your Password " ><br><br>
+
+                 <label for="Phone">Phone</label><br>
+                 <input type="text" id="Phone" name="Phone" placeholder="1234 123 1234 "  ><br><br>
+
+                 <label for="Age">Age</label><br>
+                 <input type="number" id="Age" name="Age" placeholder="Enter your Age " ><br><br>
+
+                 <label for="Gender">Gender</label><br>
+                 <input list="Gender" id="Gender" name="Gender" placeholder="Enter your Gender "><br><br>
+                 <option value="Male"></option>
+                 <option value="FeMale"></option>
+
+                 <button input type="button" id="submit" name="submit" onclick="accountt ()" href="login_menna.html">signup</button>
+           
+            </div>
+         </div>
+
+         <div class="login" id="login">
+
+            <div class="loginlale">
+                <label for="loginlale">Log In</label>
+            </div>
+
+            <form>
+                <div class="inpuuts">
+
+                    <label for="usrname">User Name</label><br>
+                <input type="text" id="usrname" name="usrnsme" placeholder="Enter your Name " required ><br><br>
+
+                <label for="Password">Password</label><br>
+                 <input type="Password" id="Pasword" name="Password" placeholder="Enter your Password " required ><br><br>
+
+                 <button input type="button" id="submit" name="submit" onclick="check ()" href="Review_menna.html">login</button>
+                 <button input type="button" id="submit" name="submit" onclick="check ()" href="login_menna.html">signup</button>
+                 <button input type="button" id="submit" name="submit" onclick="check ()" href="login_menna.html">forget pass</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="Password" id="Password">
+
+        <div class="Passwords">
+            <label for="passwords">Password</label>
+        </div>
+        <form>
+            <div class="inpuuts">
+
+                <label for="usrname">User Name</label><br>
+            <input type="text" id="usrname" name="usrnsme" placeholder="Enter your Name " required ><br><br>
+
+            <label for="Password">Newpassword</label><br>
+             <input type="Password" id="Pasword" name="Password" placeholder="Enter your newPassword " required ><br><br>
+
+             <button input type="button" id="submit" name="submit" onclick="checks ()" href="login_menna.html">Update</button>
+            </div>
+        </form>
+    </div>
+</div>
+    <script src="login_menna.js"></script>
+</body>
+</html>
